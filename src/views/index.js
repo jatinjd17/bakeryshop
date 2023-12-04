@@ -19,3 +19,4 @@ export { default as Shop } from "./shop";
 export { default as ViewProduct } from "./view_product";
 export { default as Aboutus } from "./aboutus";
 export { default as Contactus } from "./contactus";
+export { default as Checkoutsuccessfull } from "./checkoutsuccessful";

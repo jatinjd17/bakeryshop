@@ -19,6 +19,11 @@ const AppRouter = () => (
       <Navigation />
       <Basket />
       <Switch>
+        <Route
+          component={view.Checkoutsuccessfull}
+          exact
+          path={ROUTES.CHECKOUTSUCCESSFULL}
+        />
         <Route component={view.Aboutus} exact path={ROUTES.ABOUTUS} />
         <Route component={view.Contactus} exact path={ROUTES.CONTACTUS} />
         <Route component={view.Search} exact path={ROUTES.SEARCH} />
